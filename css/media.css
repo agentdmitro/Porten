@@ -1,0 +1,360 @@
+
+
+@media(max-width: 414px){
+  .collection__info-text {
+    max-width: 320px;
+}.top__contact-img{
+  margin-right: 10px;
+}
+}
+
+@media (max-width: 540px) {
+  .new__box + .new__box {
+    margin-bottom: 0px;
+    margin-top: 40px;
+  }
+.new {
+  margin-bottom: 50px;
+  }
+  .season__collection-img{
+    width: 350px;
+    height: auto;
+  }
+  .season__collection{
+    text-align: center;
+    max-width: 350px;
+    margin: 0 auto 20px;
+  }
+}
+
+
+@media (max-width: 768px) { 
+  .season__collection-img{
+    width: 500px;
+    height: auto;
+  }
+  .season__inner{
+    display: block;
+    text-align: center;
+  }
+  .season__sale-boxes{
+    margin: 0 auto;
+    text-align: center;
+  }
+  .season__new{
+    top: 100px;
+  }
+  .season__collection{
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto 20px;
+  }
+  .collection__info-box{
+    padding: 50px 0 20px;
+  }
+  .new__inner{
+    justify-content: space-around;
+  }
+  .top__contact-item{
+    text-align: center;
+    margin: 0 auto;
+  }
+  .collectiom__img-item{
+    max-width: 470px;
+    height: auto;
+  }
+  .collection__img{
+    margin: 0 auto;
+  }
+  .form__inner{
+    text-align: center;
+  }
+  .about{
+    margin: 0 auto;
+  }
+  .category{
+    margin: 0 auto;
+  }
+  .mailing{
+    margin: 0 auto;
+  }
+}
+
+
+@media (max-width: 540px) {
+  .new__box + .new__box {
+    margin-bottom: 0px;
+    margin-top: 40px;
+  }
+.new {
+  margin-bottom: 50px;
+  }
+  .season__collection-img{
+    width: 350px;
+    height: auto;
+  }
+  .season__collection{
+    text-align: center;
+    max-width: 350px;
+    margin: 0 auto 20px;
+  }
+  .season__new-title{
+    font-size: 26px;
+  }
+  .season__new{
+    top: 45px;
+  }
+  .collectiom__img-item{
+    width: 350px;
+  }
+  .brands__inner{
+    width: 255px;
+    margin: 0 auto;
+  }
+  .brands__box + .brands__box {
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+}
+
+@media (max-width: 520px){
+  .collection__info-text{
+    max-width: 420px;
+  }
+  .main__box{
+    margin: 90px auto 80px;
+  }
+  .form__inner{
+    padding: 20px 0px;
+  }
+} 
+
+
+@media (max-width: 795px) {
+    body.lock {
+      overflow: hidden;
+    }
+    .header__body {
+      height: 50px;
+    }
+    .header__logo {
+      -webkit-box-flex: 0;
+          -ms-flex: 0 0 40px;
+              flex: 0 0 40px;
+    }
+    .header__burger {
+      display: block;
+      position: relative;
+      width: 30px;
+      height: 20px;
+      z-index: 999;
+    }
+    .header__burger span {
+      background-color: #fff;
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      left: 0;
+      top: 9px;
+      -webkit-transition: all 0.3s ease 0s;
+      transition: all 0.3s ease 0s;
+    }
+    .header__burger:before,
+    .header__burger:after {
+      content: '';
+      background-color: #fff;
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      left: 0;
+      -webkit-transition: all 0.3s ease 0s;
+      transition: all 0.3s ease 0s;
+      z-index: 999;
+    }
+    .header__burger:before {
+      top: 0;
+    }
+    .header__burger:after {
+      bottom: 0;
+    }
+    .header__burger.active:before {
+      -webkit-transform: rotate(45deg);
+              transform: rotate(45deg);
+      top: 9px;
+    }
+    .header__burger.active:after {
+      -webkit-transform: rotate(-45deg);
+              transform: rotate(-45deg);
+      bottom: 9px;
+    }
+    .header__burger.active span {
+      -webkit-transform: scale(0);
+              transform: scale(0);
+    }
+    .header__menu {
+      position: fixed;
+      top: -100%;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      /*для прокрутки меню, когда оно не помещается в экран*/
+      overflow: auto;
+      display: inline-block;
+      background-color: rgba(0, 0, 0, 0.842);
+      padding-top: 95px;
+      -webkit-transition: all 0.3s ease 0s;
+      transition: all 0.3s ease 0s;
+      z-index: 800;
+      text-align: center;
+    }
+    .header__menu.active {
+      top: 0;
+    }
+    .header__list {
+      text-align: center;
+      display: inline-block;
+      z-index: 802;
+      margin: 0 auto;
+    }
+    .header__list li {
+      margin: 0 0 30px 0;
+    }
+    .header__link {
+      font-size: 24px;
+    }
+    .header__nav{
+        display: none;
+    }
+    .top__contact-account{
+        display: none;
+    }
+    .header__inner{
+        align-items: start;
+    }
+    .burger__contact-account{
+        margin-bottom: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .top__contact-login{
+        display: flex;
+        align-items: center;
+    }
+    .header__icons{
+        display: flex;
+        justify-content: space-around;
+    }
+    .top__contact-login, .top__contact-reg {
+        font-size: 16px;
+        line-height: 16px;
+        color: #969696;
+    }
+    .container{
+        padding: 1px 10px 0;
+    }
+    .season__sale-boxes{
+        flex-wrap: wrap;
+        width: 259px;
+    }
+    .season__sale-box + .season__sale-box {
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+    .season__sale{
+        padding: 69px 0 40px;
+    }
+}
+
+
+
+
+@media (max-width: 992px) {
+
+}
+
+
+
+@media (max-width: 1010px){
+    .form{
+        background-image: url(../img/form2.png);
+        overflow: hidden;
+    }
+    .brands__box + .brands__box{
+        margin-bottom: 20px;
+    }
+    .form__inner{
+        padding: 20px;
+    }
+    .about{
+        margin-bottom: 30px;
+    }
+}
+
+
+@media (max-width: 1800px){
+    .season__inner{
+        max-width: 880px;
+        margin: 0 auto 50px;
+    }
+    .collection__inner{
+        max-width: 880px;
+        margin: 0 auto;
+    }
+    .season__sale{
+        padding: 89px 0;
+        margin: 0 auto;
+    }
+    .collection__info{
+        width: 100%;
+        max-width: 880px;
+    }
+    .collection{
+        margin-bottom: 50px;
+    }
+}
+
+
+@media (max-width: 520px){
+  .collection__info-text{
+    max-width: 420px;
+  }
+  .main__box{
+    margin: 90px auto 80px;
+  }
+  .form__inner{
+    padding: 15px 0px;
+  }
+  .form__title{
+    margin-bottom: 20px;
+  }
+  .mailing__info {
+    margin-bottom: 20px;
+}
+} 
+
+@media(max-width: 414px){
+  .collection__info-text {
+    max-width: 320px;
+  }
+  .top__contact-img{
+    margin-right: 10px;
+  }
+  .top__contact-item > span{
+    display: none;
+  }
+  .top__contact-item{
+    max-width: 133px;
+    margin: 0;
+    text-align: left;
+  }
+  .top__contact-img {
+    margin-right: 5px;
+  }
+  .top{
+    display: none;
+  }
+  .brands {
+    padding: 45px 0 10px;
+  }
+}
